@@ -13,6 +13,8 @@
 		1386EA5420A8256700A8646A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1386EA5320A8256700A8646A /* Assets.xcassets */; };
 		1386EA5720A8256700A8646A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1386EA5520A8256700A8646A /* LaunchScreen.storyboard */; };
 		1386EA5A20A8256700A8646A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1386EA5920A8256700A8646A /* main.m */; };
+		1386EA6520A833B000A8646A /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1386EA6420A833B000A8646A /* ResultViewController.m */; };
+		1386EA6820A83F9600A8646A /* QuestionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1386EA6720A83F9600A8646A /* QuestionTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		1386EA5620A8256700A8646A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1386EA5820A8256700A8646A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1386EA5920A8256700A8646A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1386EA6320A833B000A8646A /* ResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		1386EA6420A833B000A8646A /* ResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		1386EA6620A83F9600A8646A /* QuestionTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionTableViewController.h; sourceTree = "<group>"; };
+		1386EA6720A83F9600A8646A /* QuestionTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				1386EA4B20A8256500A8646A /* AppDelegate.m */,
 				1386EA4D20A8256500A8646A /* ViewController.h */,
 				1386EA4E20A8256500A8646A /* ViewController.m */,
+				1386EA6620A83F9600A8646A /* QuestionTableViewController.h */,
+				1386EA6720A83F9600A8646A /* QuestionTableViewController.m */,
+				1386EA6320A833B000A8646A /* ResultViewController.h */,
+				1386EA6420A833B000A8646A /* ResultViewController.m */,
 				1386EA5020A8256500A8646A /* Main.storyboard */,
 				1386EA5320A8256700A8646A /* Assets.xcassets */,
 				1386EA5520A8256700A8646A /* LaunchScreen.storyboard */,
@@ -144,6 +154,8 @@
 				1386EA4F20A8256500A8646A /* ViewController.m in Sources */,
 				1386EA5A20A8256700A8646A /* main.m in Sources */,
 				1386EA4C20A8256500A8646A /* AppDelegate.m in Sources */,
+				1386EA6820A83F9600A8646A /* QuestionTableViewController.m in Sources */,
+				1386EA6520A833B000A8646A /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

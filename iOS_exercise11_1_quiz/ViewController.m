@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ResultViewController.h"
 
 @interface ViewController ()
 
@@ -25,5 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+-  (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    //  Get  the  new  view  controller  using  [segue  destinationViewController].
+    //  Pass the selected object to the new view controller.
+    ResultViewController *controller = segue.destinationViewController;
+    controller.name = [sender currentTitle];
+}
 @end
